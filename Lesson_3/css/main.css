@@ -1,0 +1,51 @@
+a {
+	color: rgb(243, 160, 7);
+}
+p {
+	color: rgb(119, 115, 115);
+}
+h3 {
+	color: blue;
+}
+h1 {
+	color: crimson;
+}
+div.menu {
+	color: darkgreen;
+}
+.content > p {
+	color: rgb(41, 25, 144);
+}
+h2 {
+	color: lawngreen;
+}
+#loc-list li {
+	color: rgb(230, 18, 159);
+}
+#loc-list a {
+	color: rgb(26, 1, 255);
+}
+.quests-list {
+	color: rebeccapurple;
+}
+.quests-list a {
+	color: rgb(141, 233, 20);
+}
+.quests-list ul {
+	color: rgb(241, 76, 11);
+}
+.quests-main > li {
+	color: rgb(6, 129, 63);
+}
+.history p {
+	color: rgba(172, 172, 56, 0.438);
+}
+.history > h2 {
+	color: yellowgreen;
+}
+#history + p {
+	color: rgb(15, 15, 15);
+}
+#description ~ p {
+	color: rgb(139, 64, 189);
+}
