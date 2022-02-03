@@ -1,0 +1,77 @@
+@import "null.css";
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/latoregular.woff2) format("woff2"), url(../fonts/latoregular.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/latobold.woff2) format("woff2"), url(../fonts/latobold.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/latoblack.woff2) format("woff2"), url(../fonts/latoblack.woff) format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Lato", sun-serif;
+	font-weight: 400;
+}
+
+.header {
+	height: 152px;
+}
+.main {
+	padding-top: 38px;
+}
+.footer {
+	height: 92px;
+}
+
+h1 {
+	text-align: left;
+	font-size: 48px;
+	font-weight: 900;
+}
+img {
+	margin: 92px auto 60px;
+}
+.wrapper {
+	width: 810px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+p {
+	margin: 0 auto 24px;
+	font-size: 16px;
+}
+p.info-bold {
+	margin: 48px auto;
+	padding-left: 71.21px;
+	font-size: 20px;
+	font-weight: 700;
+}
+p.info {
+	font-size: 20px;
+	font-weight: 700;
+}
+li {
+	margin: 0 0 4px 32px;
+}
+.mauris {
+	margin-bottom: 24px;
+}
+p.last {
+	margin: 24px auto 0;
+}
