@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+@font-face {
+	font-family: "JackSimba";
+	src: url(../fonts/JackSimbaPersonalUse.woff2) format("woff2"), url(../fonts/JackSimbaPersonalUse.woff) format("woff");
+	font-style: normal;
+	font-display: swap;
+}
+
+a {
+	color: rgb(243, 160, 7);
+	font-family: "Yellowtail", sans-serif;
+	font-weight: 900;
+	text-decoration: underline;
+}
+p {
+	color: rgb(119, 115, 115);
+	text-align: justify;
+	text-indent: 36px;
+}
+h3 {
+	color: blue;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+h1 {
+	color: crimson;
+	font-family: "JackSimba", sans-serif;
+	font-size: 120px;
+	text-shadow: 10px 10px 10px rgb(161, 4, 4);
+	text-align: center;
+}
+div.menu {
+	color: darkgreen;
+	font-family: "Yellowtail", sans-serif;
+	font-size: 18px;
+	text-decoration: line-through;
+}
+.content > p {
+	color: rgb(41, 25, 144);
+}
+h2 {
+	color: lawngreen;
+	text-align: center;
+	letter-spacing: 14px;
+	font-weight: 900;
+	font-size: 32px;
+}
+#loc-list li {
+	color: rgb(230, 18, 159);
+}
+#loc-list a {
+	color: rgb(26, 1, 255);
+}
+.quests-list {
+	color: rebeccapurple;
+}
+.quests-list a {
+	color: rgb(141, 233, 20);
+}
+.quests-list ul {
+	color: rgb(241, 76, 11);
+}
+.quests-list ul a {
+	word-spacing: 48px;
+}
+.quests-main > li {
+	color: rgb(6, 129, 63);
+}
+.history p {
+	color: rgba(172, 172, 56, 0.438);
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 2;
+}
+.history > h2 {
+	color: yellowgreen;
+}
+#history + p {
+	color: rgb(15, 15, 15);
+}
+#description ~ p {
+	color: rgb(139, 64, 189);
+}
+.loc-list a {
+	text-transform: capitalize;
+}
