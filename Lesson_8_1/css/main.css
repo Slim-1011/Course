@@ -1,5 +1,7 @@
 @import url(null.css);
 
+@import url("https://fonts.googleapis.com/css2?family=Taviraj&family=Yellowtail&display=swap");
+
 @font-face {
 	font-family: "Lato";
 	src: url(/fonts/latoblack.woff2) format("woff2"), url(/fonts/latoblack.woff) format("woff");
@@ -23,8 +25,6 @@
 	font-style: normal;
 	font-display: swap;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Taviraj&family=Yellowtail&display=swap");
 
 body {
 	font-family: "Lato", sun-serif;
