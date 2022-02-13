@@ -1,0 +1,90 @@
+@import url(null.css);
+
+@font-face {
+	font-family: "Lato";
+	src: url(/fonts/latoblack.woff2) format("woff2"), url(/fonts/latoblack.woff) format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(/fonts/latobold.woff2) format("woff2"), url(/fonts/latobold.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(/fonts/latoregular.woff2) format("woff2"), url(/fonts/latoregular.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Taviraj&family=Yellowtail&display=swap");
+
+body {
+	font-family: "Lato", sun-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25.6px;
+}
+
+.card {
+	margin: 180px 18% 0 61.7%;
+	max-width: 390px;
+}
+.list li {
+	padding: 0 0 0 30px;
+}
+.list li::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/Vector.png) 0 0 no-repeat;
+	margin: 0 16px 0 -30px;
+}
+h4 {
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 24px;
+}
+h1 {
+	font-size: 46px;
+	font-weight: 900;
+	margin: 8px 0 40px 0;
+	line-height: 59.8px;
+}
+
+.button {
+	margin: 22px 0 0 0;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	color: white;
+	border-radius: 4px;
+	width: 161px;
+	height: 44px;
+	text-align: center;
+}
+a {
+	color: white;
+	font-size: 14px;
+	line-height: 44px;
+}
+.watch {
+	max-width: 219px;
+	font-size: 36px;
+	line-height: 40px;
+	margin: 0 0 0 50px;
+}
+.watch::after {
+	content: "";
+	display: block;
+	background-color: black;
+	width: 29.7%;
+	height: 2px;
+	margin: 8px 0 0 2px;
+}

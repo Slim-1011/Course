@@ -1,0 +1,80 @@
+@import url(null.css);
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/latoblack.woff2) format("woff2"), url(../fonts/latoblack.woff) format(woff);
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/latobold.woff2) format("woff2"), url(../fonts/latobold.woff) format(woff);
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/latoregular.woff2) format("woff2"), url(../fonts/latoregular.woff) format(woff);
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family: "Lato";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+}
+.wrapper {
+	max-width: 810px;
+	margin: 0 auto;
+}
+.article-name {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59.8px;
+	margin-bottom: 24px;
+}
+.month,
+.time {
+	display: inline;
+	padding: 1px 0 0 24px;
+	color: #787a80;
+}
+.month {
+	background: url(../img/month.png) 0 top no-repeat;
+}
+.time {
+	background: url(../img/clock.png) 0 top no-repeat;
+	margin-left: 24.67px;
+}
+.article-photo {
+	margin-top: 40px;
+}
+p {
+	margin-bottom: 24px;
+}
+.paragraph-first {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 60px;
+}
+
+.paragraph-fourth {
+	background: url(../img/groupBraces.png) 0 0 no-repeat;
+	padding-left: 80px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	margin: 48px 0 48px;
+}
+.paragraph-six {
+	margin: 24px 0 0 0;
+}
+.list li {
+	background: url(../img/List.png) 0 5px no-repeat;
+	padding-left: 32px;
+}

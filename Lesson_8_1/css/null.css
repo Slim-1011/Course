@@ -1,0 +1,30 @@
+*,
+*::after,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited,
+a:hover {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	box-sizing: border-box;
+}
